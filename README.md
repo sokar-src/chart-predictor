@@ -22,7 +22,7 @@ This project is "decoupled." You **do not need API keys** to run the pre-trained
 
 1.  **Clone the Repository**
     ```bash
-    git clone [your-repo-url]
+    git clone git@github.com:sokar-src/chart-predictor.git
     cd chart-predictor
     ```
 
@@ -85,6 +85,7 @@ I used `scikit-learn` to train a `RandomForestRegressor` model on the cleaned, e
 ```text
 chart-predictor/
 │
+├── .gitignore            # (Ensures secrets, venv, and raw data are not pushed)
 │
 ├── artist_list.py        # (The master list of artists to scrape)
 ├── get_data.py           # (Contains all worker functions)
