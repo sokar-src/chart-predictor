@@ -1,0 +1,15 @@
+# Ignore the secret keys
+.env
+
+# Ignore Python cache files
+.venv/
+__pycache__/
+*.pyc
+
+# Data (Do NOT push your dataset to GitHub)
+raw_data.csv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+.cache

@@ -1,0 +1,15 @@
+# For Spotify API
+spotipy
+python-dotenv
+
+# For Data Science & ML
+pandas
+numpy
+scikit-learn
+
+# For Plotting
+matplotlib
+seaborn
+
+# For the Notebook 
+jupyter
